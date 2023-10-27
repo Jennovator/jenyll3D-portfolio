@@ -43,7 +43,7 @@ const Hero = () => {
 
       <ComputersCanvas />
       
-      <div className={`${isMobile ? `${styles.scrollMainAboutMobile}` : `${styles.scrollMainAboutPC}`}`}>
+      <div className={`${isMobile ? `${styles.scrollMainAboutMobile}` : `${styles.scrollMainAboutPC}`} cursor-pointer`}>
         <a href="#about">
         <div className={`${isMobile ? `${styles.scrollAboutMobile}` : `${styles.scrollAboutPC}`}`}>
             <motion.div
@@ -53,7 +53,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: 'loop'
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 rounded-full bg-secondary mb-1 cursor-pointer"
             />
           </div>
         </a>
