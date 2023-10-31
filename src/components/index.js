@@ -6,6 +6,7 @@ import Tech from "./Tech";
 import Projects from "./Projects";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
+import { StarsCanvas } from "./canvas";
 
 export {
   Hero,
@@ -15,5 +16,6 @@ export {
   Tech,
   Projects,
   Testimonials,
-  Contact
+  Contact,
+  StarsCanvas
 };
